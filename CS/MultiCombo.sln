@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCombo", "MultiCombo\MultiCombo.csproj", "{DA117610-6A76-4612-BAC3-8722F70D883B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA117610-6A76-4612-BAC3-8722F70D883B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA117610-6A76-4612-BAC3-8722F70D883B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA117610-6A76-4612-BAC3-8722F70D883B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA117610-6A76-4612-BAC3-8722F70D883B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
