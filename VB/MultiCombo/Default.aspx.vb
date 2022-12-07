@@ -9,10 +9,9 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 Imports System.Collections.Generic
 Imports System.Collections.Specialized
-Imports DevExpress.Web.ASPxGridView
 
 Namespace MultiCombo
 	Partial Public Class _Default
@@ -55,7 +54,7 @@ Namespace MultiCombo
 			combo4.Value = Nothing
 		End Sub
 
-		Protected Sub grid_HtmlRowCreated(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewTableRowEventArgs)
+		Protected Sub grid_HtmlRowCreated(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableRowEventArgs)
 			If (e.RowType = GridViewRowType.InlineEdit) Then
 				Dim combo2 As ASPxComboBox = (CType(grid.FindEditRowCellTemplateControl(TryCast(grid.Columns("Category2ID"), GridViewDataComboBoxColumn), "Cat2"), ASPxComboBox))
 				If Request.Params(combo2.UniqueID) IsNot Nothing Then

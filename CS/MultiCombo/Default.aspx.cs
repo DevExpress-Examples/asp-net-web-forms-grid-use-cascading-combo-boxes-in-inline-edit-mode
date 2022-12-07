@@ -8,10 +8,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using DevExpress.Web.ASPxGridView;
 
 namespace MultiCombo
 {
@@ -56,7 +55,7 @@ namespace MultiCombo
             combo4.Value = null;
         }
 
-        protected void grid_HtmlRowCreated(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewTableRowEventArgs e)
+        protected void grid_HtmlRowCreated(object sender, DevExpress.Web.ASPxGridViewTableRowEventArgs e)
         {
             if ((e.RowType == GridViewRowType.InlineEdit)) {
                 ASPxComboBox combo2 = ((ASPxComboBox)grid.FindEditRowCellTemplateControl(
