@@ -6,7 +6,7 @@ This example demonstrates how to create templated combo box columns, add combo b
 
 ## Overview
 
-Add [combo box columns](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) to the grid, specify their [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) properties, and add combo box editors to the templates.
+Add [combo box columns](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) to the grid, specify their [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) properties, and add cascading combo box editors to the templates.
 
 ```aspx
 <dx:GridViewDataComboBoxColumn FieldName="Category1ID" VisibleIndex="4">
