@@ -46,5 +46,5 @@ Wrap the grid with an update panel to avoid updating the entire page.
 
 ## More Examples
 
-* [Data Editors for ASP.NET Web Forms - Use custom callback funstionality to implement cascading combo boxes in inline mode](https://github.com/DevExpress-Examples/custom-callback-based-implementation-of-cascading-comboboxes-in-inline-mode-e1362)
-* [Data Editors for ASP.NET Web Forms - How to use cascading combo boxes to edit hierarchical data](https://github.com/DevExpress-Examples/how-to-edit-hierarchical-data-using-cascading-comboboxes-e1346)
+* [Data Editors for ASP.NET Web Forms - Custom callback based implementation of cascading comboboxes in inline mode](https://github.com/DevExpress-Examples/custom-callback-based-implementation-of-cascading-comboboxes-in-inline-mode-e1362)
+* [Data Editors for ASP.NET Web Forms - How to edit hierarchical data using cascading comboboxes](https://github.com/DevExpress-Examples/how-to-edit-hierarchical-data-using-cascading-comboboxes-e1346)
